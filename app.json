@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Coronavírus",
+    "slug": "corona",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icone.png",
+    "splash": {
+      "image": "./assets/appSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8194AE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.matos.coronavirus",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#8194AE",
+      "translucent": false,
+      "barStyle": "light-content"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
